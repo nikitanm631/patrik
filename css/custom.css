@@ -601,6 +601,20 @@ footer .subscribe-form button{
 }
 
 
+
+/* career page css */
+.career-page .fa{
+  font-size:38px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 10px;
+}
+
 @media only screen and (max-width:500px) {
 
 }
