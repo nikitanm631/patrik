@@ -1,0 +1,446 @@
+/* CSS
+Website Name:
+Author: Zed, Nikita
+Version: 1.0
+*/
+
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+.plr-0{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.p-0{
+  padding: 13px;
+}
+.mt-6{
+  margin-top: 6px;
+}
+.mt-19{
+  margin-top: 19px;
+}
+.mt-50m{
+  margin-top: -50px;
+}
+.p-15{
+  padding: 15px;
+}
+.mt-55{
+  margin-top: 55px;
+}
+.pt-55{
+  padding-top: 55px;
+}
+.pt-35{
+  padding-top: 35px;
+}
+.pb-40{
+  padding-bottom: 40px;
+}
+.plr-100{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.fs-16{
+  font-size: 16px;
+}
+.pad{
+  padding: 20px;
+}
+.no-pad{
+  padding: 0;
+}
+.floater{
+  position: absolute;
+}
+.shadow{
+  box-shadow: 0 0 38px rgba(41,49,64,0.07);
+}
+.inline{
+  display: inline-flex;
+}
+/* for underline to headings */
+.heading{
+  position: relative;
+  margin-bottom: 35px;
+}
+.heading:after{
+  content: '';
+  width: 44px;
+  border: 1px solid #333;
+  position: absolute;
+  top: 139%;
+  left: 0;
+}
+.inline{
+  display: inline-flex;
+}
+/* social icons colors */
+.bg-fb{
+  background-color:#3A559F;
+}
+.bg-tweet{
+  background-color:#1da1f2;
+}
+.bg-google{
+  background-color:#dd4b39;
+}
+
+/* common text colours */
+.text-white{
+  color: #ffffff;
+}
+.text-black{
+  color: #000000;
+}
+.bg-lightgrey{
+  background-color: #f5f5f5;
+}
+.bg-darkgrey{
+  background-color: #e4e4e4;
+}
+
+/* change according to the website theme */
+.row-head{
+  margin-bottom: 22px;
+}
+.btn-red{
+  background-color: #ff6c70;
+  color: white;
+  transition: 0.5s;
+}
+.btn-red:hover{
+  color:white;
+}
+.btn-theme{
+  border-radius: 30px;
+  padding: 8px 26px;
+  background-color: #d83f87;
+  border:1px solid #d83f87;
+  color: #ffffff;
+  transition: 0.5s;
+  padding: 8px 28px;
+  font-size: 18px;
+}
+.btn-theme:hover{
+  background-color: #3494E6;
+  border: 1px solid #3494E6;
+  color: #ffffff;
+  transition: 0.5s;
+}
+.text-red{
+  color: #ff6c70;
+}
+.text-blue{
+  color:#51529e;
+}
+.bg-blue{
+  background-color:#30CFBE;
+  color:white;
+}
+
+/* --------------------------single page banner css */
+.banner-head{
+  background-image: url('../myimages/banner.jpg');
+  background-size: cover;
+}
+.banner-head .breadcrumb{
+  background-color: transparent;
+  padding: 0 2px;
+}
+.banner-head .breadcrumb a{
+  color: #333;
+  transition: 0.5s;
+}
+.banner-head .breadcrumb a:hover{
+  color: #d83f87;
+  transition: 0.5s;
+}
+
+/*
+======================================
+Single HEADER
+======================================
+*/
+.single-header{
+  padding: 0px;
+  color:white;
+}
+.single-header ol li a{
+  color:white;
+}
+.single-header h2{
+  margin-top: 10px;
+}
+.breadcrumb{
+  margin-bottom: 10px;
+}
+
+
+
+/*---------------------------top bar css*/
+.top-bar{
+  background-color: #51529e;
+  color: #ffffff;
+}
+.top-bar p{
+  margin-bottom: 0px;
+  margin: 10px 22px;
+}
+.top-bar .btn-red{
+  border-radius: 0;
+  padding: 10px 30px;
+}
+.top-bar .social-icon .fa{
+  color: #ffffff;
+  margin-right: 26px;
+  margin-left: 26px;
+}
+
+
+
+/*---------------------------navbar css*/
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: none;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: transparent;
+  padding: 22px;
+}
+.navbar-default .navbar-nav>li>a{
+  margin-right: 5px;
+  color: #51529e;
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  letter-spacing: 0.05em;
+}
+.navbar-brand{
+  padding: 0
+}
+.navbar-brand img{
+  height: 125px;
+  margin-top: -36px;
+}
+
+/* dropdown css */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  top: 40px;
+  left: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0px 0px;
+  min-width: 215px;
+}
+.dropdown-menu>li>a {
+  display: block;
+  padding: 7px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #51529e;
+  white-space: nowrap;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/* header logo css */
+.header-logo{
+  height: 105px;
+}
+.dropdown-menu li{
+  padding: 15px;
+}
+
+/*-------------------carousel css*/
+.carousel-control.left{
+  background-image: none!important;
+}
+.carousel-control.right{
+  background-image: none!important;
+}
+
+/* about section  */
+.about-sec h2{
+  font-weight: 700;
+}
+.about-sec p{
+  text-align: justify;
+}
+
+/* service section */
+.serviceBox{
+    padding: 25px 10px;
+    text-align: center;
+    background: #51529e;
+    border-top: 3px solid #ff6c70;
+    border-bottom: 3px solid #ff6c70;
+    position: relative;
+}
+.serviceBox:before{
+    content: "";
+    border-top: 0 solid #ff6c70;
+    border-right: 0 solid transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover:before{
+    border-top-width: 78px;
+    border-right-width: 78px;
+}
+.serviceBox:after{
+    content: "";
+    border-bottom: 0 solid #ff6c70;
+    border-left: 0 solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover:after{
+    border-bottom-width: 78px;
+    border-left-width: 78px;
+}
+.serviceBox .service-icon{
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    line-height: 65px;
+    border-radius: 20px;
+    background: #51529e;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: relative;
+}
+.serviceBox .title{
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover .title{  }
+.serviceBox .description{
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 30px; }
+}
+
+
+/* policy section */
+.policy-sec-n{
+  background-image: url('../myimages/3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.policy-sec-n p{
+  background-color: #333;
+  opacity: 0.8;
+  color: #fff;
+  padding: 30px;
+}
+
+
+.appointment-sec{
+  background-color: #f5f5f5;
+}
+.bg-white{
+  background-color: white;
+}
+
+
+/* NM Css */
+/* ====================================
+Service Page
+==================================== */
+.service-nav li{
+  padding: 9px;
+  border: 1px solid #efefef;
+  color: #3c3c3c;
+  font-size: 17px;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.service-nav li.active{
+  color: #ffffff;
+  background: #30cfbe;
+  transition: 0.5s;
+}
+.service-nav li:hover{
+  color: #ffffff;
+  background: #30cfbe;
+  transition: 0.5s;
+}
+.breadcrumb>.active {
+    color: #fff;
+}
+
+/*
+====================================
+FOOTER
+====================================
+*/
+footer{
+  /* background-color: #51529e; */
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  background: #1e3c72;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.footer-title{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.footer-col .fa{
+  font-size: 22px;
+  margin-right: 2%;
+  margin-left: 2%;
+  color: #c1c1c1;
+}
+footer p{
+  margin: 0;
+  color: #f5f5f5;
+}
+footer a,
+footer a:hover{
+  text-decoration: none;
+  color:white;
+}
+
+
+
+
+@media only screen and (max-width:500px) {
+
+}
