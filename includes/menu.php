@@ -52,13 +52,13 @@
             <li><a href="crew.php">Crew Management</a></li>
             <li><a href="technical.php">Technical Management</a></li>
             <li><a href="offshore.php">Offshore Management</a></li>
-
+            <li><a href="flag-state.php">Flag State Documentation Services</a></li>
           </ul>
         </li>
         <!-- <li><a href="services.php">Services</a></li> -->
-        <li><a href="training.php">Training</a></li>
-        <li><a href="" target="_blank">Blog</a></li>
 
+        <li><a href="careers.php" >Careers</a></li>
+        <li><a href="vacancies.php">Vacancies</a></li>
         <li><a href="contact.php">Contact</a></li>
         <!-- <li><button type="button" class="btn btn-info btn-lg btn-theme" data-toggle="modal" data-target="#myModal">Appointment</button> </li> -->
       </ul>
