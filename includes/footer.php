@@ -1,32 +1,53 @@
-<footer>
+<footer class="pt-55 pb-40">
   <div class="container">
     <div class="row">
-      <div class="col-sm-5">
+      <div class="col-sm-3">
         <div class="footer-col">
-  <h5 class="footer-title">Our Address</h5>
-          <p><i class="fa fa-map-marker"></i> Navi Mumbai, Mumbai, Maharashtra 400706</p>
+          <!-- <img src="myimages/logo.png" alt="" class="img-responsive"> -->
+          <h5 class="footer-title">about us</h5>
+          <p class="text-justify">As a ship management company, we are committed to maintaining the highest standards of safety and energy conservation both onboard and ashore.</p>
+          <br><br>
+          <p> <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i class="fa fa-instagram"></i> <i class="fa fa-google-plus"></i></p>
   </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="footer-col">
-          <h5 class="footer-title">Reach Us At</h5>
-          <p><i class="fa fa-phone"></i> +91 123 456 7890</p>
-        </div>
       </div>
       <div class="col-sm-3">
         <div class="footer-col">
-  <h5 class="footer-title">Email Us At</h5>
-    <p><i class="fa fa-envelope"></i> contact@example.com</p>
-  <!-- <ul class="social-icons icon-gray icon-circled icon-sm pull-right sm-pull-none sm-text-center mt-sm-15">
-    <li><a href="https://www.facebook.com/Dr-Ortho-207035629682172" target="_blank"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="https://twitter.com/drpramodbhor" target="_blank"><i class="fa fa-twitter"></i></a></li>
-    <li><a href="https://www.instagram.com/drbhor/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-    <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-
-
-  </ul> -->
-  </div>
+          <h5 class="footer-title">Our Services</h5>
+          <ul>
+            <li><a href="crew.php">Crew Management</a></li>
+            <li><a href="technical.php">Technical Management</a></li>
+            <li><a href="offshore.php">Offshore Management</a></li>
+            <li><a href="flag-state.php">Flag State Documentation Services</a></li>
+          </ul>
+        </div>
       </div>
+
+      <div class="col-sm-3">
+        <div class="footer-col">
+          <h5 class="footer-title">Contact Us</h5>
+          <p> <i class="fa fa-map-marker"></i> Address</p>
+          <br>
+          <p> <i class="fa fa-phone"></i> +91 123 456 7890</p>
+          <br>
+          <p> <i class="fa fa-envelope"></i> email@posm.com</p>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="footer-col">
+          <h5 class="footer-title">Newsletter Suscribe</h5>
+          <p>Subscribe to our mailing list to get the updates to your email inbox.</p>
+          <br>
+          <form action="#" class="subscribe-form">
+							<fieldset>
+								<input type="email" class="form-control" placeholder="your email here">
+								<button type="submit"><i class="fa fa-envelope-o"></i></button>
+							</fieldset>
+					</form>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </footer>

@@ -3,9 +3,9 @@
     <div class="row">
 
       <div class="col-sm-8 text-center inline">
-          <p> <i class="fa fa fa-certificate"></i> Certified Company</p>
+          <!-- <p> <i class="fa fa fa-certificate"></i> Certified Company</p>
           <p><i class="fa fa-envelope inline-fa"></i> <a href="mailto:info@example.com"></a>info@example.com </p>
-          <p> <i class="fa fa-phone inline-fa"></i>  +91 123 456 7890 / +91 758 589 6458</p>
+          <p> <i class="fa fa-phone inline-fa"></i>  +91 123 456 7890 / +91 758 589 6458</p> -->
 
       </div>
 
@@ -16,18 +16,20 @@
     </div>
   </div>
 </div>
-<!-- <div class="header-logo">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-5">
 
-      </div>
-      <div class="col-sm-7">
-
-      </div>
+<div class="container mid-menu">
+  <div class="row">
+    <div class="col-md-3">
+      <img src="myimages/logo.png" alt="Dr. Pooja Vijay Multani" class="img-responsive">
+    </div>
+    <div class="col-md-9 inline">
+      <p> <i class="fa fa fa-certificate"></i> Certified Company</p>
+      <p><i class="fa fa-envelope inline-fa"></i> <a href="mailto:info@example.com"></a>info@example.com </p>
+      <p> <i class="fa fa-phone inline-fa"></i>  +91 123 456 7890 / +91 758 589 6458</p>
     </div>
   </div>
-</div> -->
+</div>
+
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
@@ -38,11 +40,11 @@
       </button>
       <a class="navbar-brand" href="index.php">
       <!-- <img src="myimages/drlogo.png" alt="Dr. Pooja Vijay Multani" class="img-responsive"> -->
-       <img src="myimages/logo.png" alt="" class="img-responsive">
+
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right mt-6">
+      <ul class="nav navbar-nav  mt-6">
         <li><a href="index.php">Home</a></li>
 
         <li><a href="about.php">About Us</a></li>

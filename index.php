@@ -48,11 +48,18 @@
 		</div>
 
 		<!-- about section  -->
-		<section class="about-sec pt-55 pb-40">
-			<div class="container">
+		<section class="about-sec pb-40">
+			<div class="container-fluid bg-blue sec-head">
+				<div class="row">
+					<div class="cl-md-12 text-center">
+						<h1>Company Overview</h1>
+					</div>
+				</div>
+			</div>
+			<div class="container sec-content">
 				<div class="row">
 					<div class="col-sm-6">
-						<h2><span class="text-red">Company</span> <span class="text-blue">Overview</span> </h2>
+						<br><br>
 						<p>Performance and positive results are possible by synergizing creative freedom and professionalism. Patrick Ocean Ship Management Pvt. Ltd. is a full-service partner for maritime organizations. Our focus is on complete coverage of all options available with minimal response time. Our practical approach has a dedicated advocacy for owners and charterers alike. Above all, our imagination and initiative make us stand out.</p>
 						<p>As a ship management company, we are committed to maintaining the highest standards of safety and energy conservation both onboard and ashore. Prevention of injury or loss of life of seafarers and protection of marine environment.</p>
 					</div>
@@ -64,12 +71,79 @@
 		</section>
 		<!-- about section end -->
 
+		<!-- NEW SERVICE SECTION -->
+		<section class="new-service-sec">
+			<div class="container-fluid bg-blue sec-head">
+				<div class="row">
+					<div class="cl-md-12 text-center">
+						<h1>Our Services</h1>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+
+					<div class="col-md-3 sr1">
+						<div class="img-sec">
+							<img src="myimages/home-service/1.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="content">
+							<i class="fa fa-ship"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+						</div>
+						<div class="overlay"></div>
+					</div>
+
+					<div class="col-md-3 sr2">
+						<div class="img-sec">
+							<img src="myimages/home-service/2.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="content">
+							<i class="fa fa-ship"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+						</div>
+						<div class="overlay"></div>
+					</div>
+
+					<div class="col-md-3 sr3">
+						<div class="img-sec">
+							<img src="myimages/home-service/3.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="content">
+							<i class="fa fa-ship"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+						</div>
+						<div class="overlay"></div>
+					</div>
+
+					<div class="col-md-3 sr4">
+						<div class="img-sec">
+							<img src="myimages/home-service/4.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="content">
+							<i class="fa fa-ship"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+						</div>
+						<div class="overlay"></div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	
+		<!-- NEW SERVICE SECTIOn -->
+		<div class="container-fluid bg-blue sec-head">
+			<div class="row">
+				<div class="cl-md-12 text-center">
+					<h1>Our Policies</h1>
+				</div>
+			</div>
+		</div>
 		<section class="policy-sec-n pt-35 pb-40">
+
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
-						<h2 class="text-center"><b>Our Policies</b> </h2>
-						<br>
+					<div class="col-sm-12 sec-content">
 						<p class="text-center">Patrick Ocean Ship Management believes that, in providing comprehensive marine support services to the offshore industry, the Safety and Health of its employees, including Contractors and all persons working under its control, together with the general public, as well as the protection of the Environment, are the overriding responsibilities and considerations in carrying out its diverse marine operations.</p>
 					</div>
 				</div>
@@ -77,14 +151,18 @@
 			</div>
 		</section>
 
-		<section class="services-sec pt-35 pb-40">
-			<div class="container">
+
+		<!-- SERVICE SECTION -->
+		<!-- <section class="services-sec pb-40">
+			<div class="container-fluid bg-blue sec-head">
 				<div class="row">
-					<div class="col-sm-12">
-						<h2 class="text-center"><span class="text-red"><b>Our</b> </span> <span class="text-blue"><b>Services</b> </span> </h2>
-						<br>
+					<div class="cl-md-12 text-center">
+						<h1>Our Services</h1>
 					</div>
 				</div>
+			</div>
+			<br><br>
+			<div class="container">
 		    <div class="row">
 		        <div class="col-md-3 col-sm-6">
 		            <div class="serviceBox">
@@ -124,7 +202,10 @@
 		        </div>
 		    </div>
 			</div>
-		</section>
+		</section> -->
+		<!-- END SERVICE SECTIOn -->
+
+
 
 		<!-- TESTIMONIAL SECTION -->
  		<!-- <section class="testimonial-sec pt-55 pb-40">
@@ -214,6 +295,7 @@
 					</div>
 
 					<div class="col-md-6 plr-0">
+						<br><br>
 						<img src="myimages/2.jpg" alt="" class="img-responsive hidden-xs">
 						<!-- <div class="row">
 							<div class="col-md-12"><h2><span class="text-blue"><b>Contact</b> </span> <span class="text-red"><b>Us</b> </span> </h2> <br></div>

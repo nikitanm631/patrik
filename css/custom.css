@@ -141,13 +141,22 @@ body{
   color: #ff6c70;
 }
 .text-blue{
-  color:#51529e;
+  color:#131F37;
 }
 .bg-blue{
-  background-color:#30CFBE;
+  background-color:#131F37;
   color:white;
 }
-
+.sec-head{
+  padding: 25px;
+}
+.sec-head h1{
+  margin: 0
+}
+.sec-content p{
+  font-size: 15px;
+    line-height: 25px;
+}
 /* --------------------------single page banner css */
 .banner-head{
   background-image: url('../myimages/banner.jpg');
@@ -189,13 +198,15 @@ Single HEADER
 
 /*---------------------------top bar css*/
 .top-bar{
-  background-color: #51529e;
+  background-color: #131F37;
   color: #ffffff;
 }
-.top-bar p{
+.mid-menu p{
   margin-bottom: 0px;
-  margin: 8px 22px;
-  font-size: 12px;
+  margin: 46px 22px;
+  font-size: 15px;
+  color: #ff6c70;
+  font-weight: bold;
 }
 .top-bar .btn-red{
   border-radius: 0;
@@ -217,33 +228,25 @@ Single HEADER
   border: none;
 }
 .navbar-default {
-  background-color: #ffffff;
+  background-color: #131F37;
   border-color: transparent;
-  padding: 22px;
 }
-.navbar-default .navbar-nav li{
-  float: left;
-    background-color: #ff6c70;
-    margin: 0px 10px;
-    box-shadow: 3px 2px 0px #51529e;
-    transition: 0.5s;
+.navbar-default .navbar-nav{
+  margin: 0;
+  display: inline-block;
+    float: none;
+    vertical-align: top;
 }
-.navbar-default .navbar-nav li:hover{
-  box-shadow: none;
-  transition: 0.5s;
+.navbar-default .navbar-collapse {
+    text-align: center;
+}
+.navbar-default .navbar-nav li a{
+  color: white;
+  padding: 0;
+  margin: 15px;
 }
 .navbar-default .navbar-nav li:hover a{
-  color:white;
-}
-.navbar-default .navbar-nav>li>a{
-  margin-right: 5px;
-  color: #51529e;
-  font-weight: 700;
-  font-size: 16px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  letter-spacing: 0.05em;
-  color:white;
+  color: white;
 }
 .navbar-brand{
   padding: 0
@@ -254,15 +257,13 @@ Single HEADER
 }
 
 /* dropdown css */
-.dropdown-menu {
-  right: -90px !important;
-}
+
 
 .navbar-default .navbar-nav .dropdown-menu>li{
   background-color: transparent;
     margin: 0;
     box-shadow: none;
-    padding: 15px 0px;
+    padding: 5px 0px;
     width: 100%;
 }
 .navbar-default .navbar-nav .dropdown-menu>li a{
@@ -277,7 +278,7 @@ Single HEADER
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #51529e;
+  color: #131F37;
   white-space: nowrap;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
@@ -290,6 +291,10 @@ Single HEADER
   padding: 15px;
 }
 
+
+.mid-menu img{
+  height: 113px;
+}
 /*-------------------carousel css*/
 .carousel-control.left{
   background-image: none!important;
@@ -310,7 +315,7 @@ Single HEADER
 .serviceBox{
     padding: 25px 10px;
     text-align: center;
-    background: #51529e;
+    background: #131F37;
     border-top: 3px solid #ff6c70;
     border-bottom: 3px solid #ff6c70;
     position: relative;
@@ -349,7 +354,7 @@ Single HEADER
     height: 70px;
     line-height: 65px;
     border-radius: 20px;
-    background: #51529e;
+    background: #131F37;
     font-size: 40px;
     color: #ffffff;
     margin-bottom: 10px;
@@ -375,6 +380,66 @@ Single HEADER
     .serviceBox{ margin-bottom: 30px; }
 }
 
+
+
+
+/*
+=============================================================== NEW SERVICE SECTION
+*/
+.new-service-sec .col-md-3{
+    padding: 140px 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    color: white;
+    position: relative;
+    box-shadow: 1px 0px 11px #757575;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.new-service-sec .col-md-3:hover{
+
+}
+.new-service-sec .col-md-3 .fa{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.new-service-sec .col-md-3 .img-sec{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.8, 2.0);
+  transition: 0.5s;
+}
+.new-service-sec .col-md-3:hover .img-sec{
+  transform: scale(2.0, 2.2);
+  transition: 0.5s;
+}
+.new-service-sec .col-md-3:hover .overlay{
+  opacity: 0.2;
+}
+.new-service-sec .col-md-3 .content{
+  position: absolute;
+    top: 38px;
+    z-index: 2;
+    left: 0;
+}
+.overlay{
+  position: absolute;
+  background-color: #1874c1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+/*
+=================================================================== END NEW SERVICE SECTION
+*/
 
 /* policy section */
 .policy-sec-n{
@@ -457,23 +522,38 @@ FOOTER
 ====================================
 */
 footer{
-  /* background-color: #51529e; */
+  /* background-color: #131F37; */
   padding-top: 30px;
   padding-bottom: 20px;
   color: #ffffff;
-  background: #1e3c72;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-image: url('http://htmlbeans.com/html/amlogistic/images/img13.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer img{
+  height: 95px;
+}
+footer ul{
+  list-style-type: none;
+  padding: 0
+}
+footer ul li {
+  margin: 20px 10px;
+}
+footer ul li a{
+  text-decoration: none;
+}
+footer ul li:hover a{
+  color: #ff6c70;
 }
 .footer-title{
   text-transform: uppercase;
   font-weight: 600;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 .footer-col .fa{
-  font-size: 22px;
+  font-size: 12px;
   margin-right: 2%;
   margin-left: 2%;
   color: #c1c1c1;
@@ -481,6 +561,7 @@ footer{
 footer p{
   margin: 0;
   color: #f5f5f5;
+  font-size: 13px;
 }
 footer a,
 footer a:hover{
@@ -488,7 +569,36 @@ footer a:hover{
   color:white;
 }
 
-
+footer .subscribe-form .form-control{
+  color: #fff;
+    width: 100%;
+    height: 46px;
+    background: none;
+    border: 1px solid #fff;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 6px 50px 6px 22px;
+}
+footer .subscribe-form button{
+  position: absolute;
+    right: 32px;
+    top: 130px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #cccccc;
+    background: none;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
 
 
 @media only screen and (max-width:500px) {
