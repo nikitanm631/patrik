@@ -31,29 +31,31 @@
 				<div class="row plr-100">
 					<div class="col-sm-6">
 							<h1 class="text-blue">Find Us</h1>
-							<p>Contact Dr. Pooja for any queries! Reach out on any of the below details.<p>
+							<p>Contact for any queries! Reach out on any of the below details.<p>
 
-							<h4> <i class="fa fa-phone"></i> +91 9619678305</h4>
-							<h4> <i class="fa fa-phone"></i> +91 7303067553</h4>
+							<h4> <i class="fa fa-phone"></i> +9122 49706625.</h4>
 
-							<h4> <i class="fa fa-envelope"></i> info@drpooja.com</h4>
+
+							<h4> <i class="fa fa-envelope"></i> info@patrickoceanshipmanagement.com </h4>
+							<h4> <i class="fa fa-envelope"></i> crew@patrickoceanshipmanagement.com  </h4>
+							<h4> <i class="fa fa-envelope"></i> posmpvtltd@gmail.com </h4>
 
 							<br>
 
-							<p>Socials</p>
-
+							<!-- <p>Socials</p>
+							<br>
 							<div class="socials ">
-								<a href="#"><i class="fa fa-facebook social-ico"></i></a>
-								<a href="#"><i class="fa fa-twitter social-ico"></i></a>
-								<a href="#"><i class="fa fa-google-plus social-ico"></i></a>
+								<a href="#" class="bg-fb"><i class="fa fa-facebook social-ico"></i></a>
+								<a href="#" class="bg-tweet"><i class="fa fa-twitter social-ico"></i></a>
+								<a href="#" class="bg-google"><i class="fa fa-google-plus social-ico"></i></a>
 
-							</div>
-
+							</div> -->
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.7852339863257!2d72.99678201490106!3d19.07317798708958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c14a03ff041d%3A0xa2fd49ba5a2ce65c!2sBawa+Tower%2C+17%2C+Sector+17%2C+Vashi%2C+Navi+Mumbai%2C+Maharashtra+400705!5e0!3m2!1sen!2sin!4v1537442212471" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 					<div class="col-sm-6">
 						<div class="contactform">
 							<div class="row row-head">
-								<h3 class="text-center">Send Message</h3>
+								<h1 class="text-center text-blue">Send Message</h1>
 							</div>
 							<div class="row">
 								<div class="">
@@ -65,7 +67,7 @@
 												</div>
 											</div>
 										</div>
-
+										<br>
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="form-group">
@@ -73,7 +75,7 @@
 												</div>
 											</div>
 										</div>
-
+<br>
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="form-group">
@@ -81,7 +83,7 @@
 												</div>
 											</div>
 										</div>
-
+<br>
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="form-group">
@@ -89,9 +91,9 @@
 												</div>
 											</div>
 										</div>
-
-										<div class="form-group" style="text-align:center;">
-		  								<input type="submit" name="submit" class="btn contact-btn" value="Submit">
+<br>
+										<div class="form-group">
+		  								<input type="submit" name="submit" class="btn btn-theme" value="Submit">
 										</div>
 									</form>
 								</div>
@@ -104,96 +106,7 @@
 		</div>
 	</section>
 
-	<!-- Consulting Hospital Sec -->
-	<section class="consulting-sec pt-55 pb-40 contact-sec-2">
-		<div class="container">
-			<div class="service-header text-center">
 
-				<h1>Consulting Hospitals</h1>
-			</div>
-			<br><br><br>
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="consulting-col">
-						<img src="myimages/hospitals/medi.jpg" alt="" class="img-responsive">
-						<h4 class="text-center text-purple"> <b>Kharghar Medicity Hospital</b> </h4>
-						<p><b>Address : </b>Plot NO - C/23, Aum Sai CHS, Next to Kharghar Police Station, Sector 7, Kharghar, Navi Mumbai, Maharashtra 410210 </p>
-						<p><b>Contact No : </b>070453 99388 </p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="consulting-col">
-						<img src="myimages/hospitals/apollo.jpg" alt="" class="img-responsive">
-						<h4 class="text-center text-purple"> <b>Apollo Hospitals, Belapur</b> </h4>
-						<p><b>Address : </b>Plot # 13, Parsik Hill Road, Off, Uran Rd, Sector 23, CBD Belapur, Navi Mumbai, Maharashtra 400614</p>
-						<p><b>Contact No : </b>022 3350 3350 </p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="consulting-col">
-						<img src="myimages/hospitals/fortis.jpg" alt="" class="img-responsive">
-						<h4 class="text-center text-purple"> <b>Fortis Hiranandani Hospital, Vashi</b> </h4>
-						<p><b>Address : </b>Plot No. 28, Juhu Chowpatty Marg, Juhu Nagar, Sector 10A, Vashi, Navi Mumbai, Maharashtra 400703 </p>
-						<p><b>Contact No : </b>022 3919 9222</p>
-					</div>
-				</div>
-			</div>
-			<br><br><br>
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="consulting-col">
-						<img src="myimages/hospitals/c9.jpg" alt="" class="img-responsive">
-						<h4 class="text-center text-purple"> <b>Cloudnine Hospital</b> </h4>
-						<p><b>Address : </b>Plot No. 17, Sector-19D, Vashi, Navi Mumbai, Maharashtra 400705 </p>
-						<p><b>Contact No : </b>1860 108 9999 </p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="consulting-col">
-						<img src="myimages/hospitals/dy.jpg" alt="" class="img-responsive">
-						<h4 class="text-center text-purple"> <b>D Y Patil Hospital, Nerul</b> </h4>
-						<p><b>Address : </b>Sector 5, Nerul, Navi Mumbai, Maharashtra 400706 </p>
-						<p><b>Contact No : </b>022 2773 5901 </p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="consulting-col">
-						<img src="myimages/hospitals/motherhood.jpg" alt="" class="img-responsive">
-						<h4 class="text-center text-purple"> <b>Motherhood Hospital, Kharghar</b> </h4>
-						<p><b>Address : </b>Sector 7, Besides ICICI Bank, Kharghar, Navi Mumbai, Maharashtra 410210</p>
-						<p><b>Contact No : </b>070455 04599 </p>
-					</div>
-				</div>
-			</div>
-			<!-- <div class="row">
-				<div class="col-md-2">
-					<img src="myimages/hospitals/medi.jpg" alt="" class="img-responsive">
-					<h4 class="text-center text-purple"> <b>Kharghar</b> </h4>
-				</div>
-				<div class="col-md-2">
-					<img src="myimages/hospitals/apollo.jpg" alt="" class="img-responsive">
-					<h4 class="text-center text-purple"> <b>Belapur</b> </h4>
-				</div>
-				<div class="col-md-2">
-					<img src="myimages/hospitals/fortis.jpg" alt="" class="img-responsive">
-					<h4 class="text-center text-purple"> <b>Vashi</b> </h4>
-				</div>
-				<div class="col-md-2">
-					<img src="myimages/hospitals/c9.jpg" alt="" class="img-responsive">
-					<h4 class="text-center text-purple"> <b>vashi</b> </h4>
-				</div>
-				<div class="col-md-2">
-					<img src="myimages/hospitals/dy.jpg" alt="" class="img-responsive">
-					<h4 class="text-center text-purple"> <b>Nerul</b> </h4>
-				</div>
-				<div class="col-md-2">
-					<img src="myimages/hospitals/motherhood.jpg" alt="" class="img-responsive">
-					<h4 class="text-center text-purple"> <b>Kharghar</b> </h4>
-				</div>
-			</div> -->
-		</div>
-	</section>
-	<!-- Consulting Hospital Sec -->
 
 	<?php include 'includes/footer.php'; ?>
 </body>

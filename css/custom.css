@@ -2,6 +2,7 @@
 Website Name:
 Author: Zed, Nikita
 Version: 1.0
+#2e2f6b
 */
 
 
@@ -12,8 +13,11 @@ a:hover{
   text-decoration: none;
 }
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: Open Sans, sans-serif;
   overflow-x: hidden;
+}
+body p{
+  color: #777777;
 }
 .plr-0{
   padding-left: 0px;
@@ -99,7 +103,7 @@ body{
 .text-white{
   color: #ffffff;
 }
-.text-black{
+.text-dark{
   color: #000000;
 }
 .bg-lightgrey{
@@ -114,37 +118,24 @@ body{
   margin-bottom: 22px;
 }
 .btn-red{
-  background-color: #ff6c70;
+  background-color: #ed3237;
   color: white;
   transition: 0.5s;
 }
 .btn-red:hover{
   color:white;
 }
-.btn-theme{
-  border-radius: 30px;
-  padding: 8px 26px;
-  background-color: #d83f87;
-  border:1px solid #d83f87;
-  color: #ffffff;
-  transition: 0.5s;
-  padding: 8px 28px;
-  font-size: 18px;
-}
-.btn-theme:hover{
-  background-color: #3494E6;
-  border: 1px solid #3494E6;
-  color: #ffffff;
-  transition: 0.5s;
-}
+
+
+
 .text-red{
-  color: #ff6c70;
+  color: #ed3237;
 }
 .text-blue{
-  color:#131F37;
+  color:#2e2f6b;
 }
 .bg-blue{
-  background-color:#131F37;
+  background-color:#2e2f6b;
   color:white;
 }
 .sec-head{
@@ -198,14 +189,14 @@ Single HEADER
 
 /*---------------------------top bar css*/
 .top-bar{
-  background-color: #131F37;
+  background-color: #2e2f6b;
   color: #ffffff;
 }
 .mid-menu p{
   margin-bottom: 0px;
   margin: 46px 22px;
   font-size: 15px;
-  color: #ff6c70;
+  color: #333;
   font-weight: bold;
 }
 .top-bar .btn-red{
@@ -217,8 +208,21 @@ Single HEADER
   margin-right: 26px;
   margin-left: 26px;
 }
+.mid-menu .name{
+  margin-top: 6%;
+    font-size: 21px;
+    font-weight: bold;
+    color: #2e2f6b;
 
-
+}
+.pl0{
+  padding-left: 0
+}
+.mid-menu .tag{
+  margin-top: 0;
+    line-height: 20px;
+    font-size: 15px;
+}
 
 /*---------------------------navbar css*/
 .navbar {
@@ -228,7 +232,7 @@ Single HEADER
   border: none;
 }
 .navbar-default {
-  background-color: #131F37;
+  background-color: #2e2f6b;
   border-color: transparent;
 }
 .navbar-default .navbar-nav{
@@ -243,7 +247,7 @@ Single HEADER
 .navbar-default .navbar-nav li a{
   color: white;
   padding: 0;
-  margin: 15px;
+  margin: 15px 28px;
 }
 .navbar-default .navbar-nav li:hover a{
   color: white;
@@ -267,7 +271,7 @@ Single HEADER
     width: 100%;
 }
 .navbar-default .navbar-nav .dropdown-menu>li a{
-    color: #ff6c70;
+    color: #ed3237;
     font-weight: bold;
 
 }
@@ -278,7 +282,7 @@ Single HEADER
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #131F37;
+  color: #2e2f6b;
   white-space: nowrap;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
@@ -296,13 +300,40 @@ Single HEADER
   height: 113px;
 }
 /*-------------------carousel css*/
+.carousel-control{
+  width: 20px;
+  opacity: 1
+}
+.carousel-control span{
+  text-shadow: none;
+}
+.carousel-control span::before{
+  padding: 5px 0;
+  background: white;
+  color: #ed3237;
+}
 .carousel-control.left{
   background-image: none!important;
 }
 .carousel-control.right{
   background-image: none!important;
 }
+.carousel-caption{
+  left: 8%;
+    /* right: 60%; */
+    width: 60%;
+    top: 30%;
+    text-align: left;
+}
+.carousel-caption p{
+  color: white;
+  font-size: 20px;
 
+}
+.carousel-caption h1{
+  margin-top: 0;
+  text-transform: uppercase;
+}
 /* about section  */
 .about-sec h2{
   font-weight: 700;
@@ -315,14 +346,14 @@ Single HEADER
 .serviceBox{
     padding: 25px 10px;
     text-align: center;
-    background: #131F37;
-    border-top: 3px solid #ff6c70;
-    border-bottom: 3px solid #ff6c70;
+    background: #2e2f6b;
+    border-top: 3px solid #ed3237;
+    border-bottom: 3px solid #ed3237;
     position: relative;
 }
 .serviceBox:before{
     content: "";
-    border-top: 0 solid #ff6c70;
+    border-top: 0 solid #ed3237;
     border-right: 0 solid transparent;
     position: absolute;
     left: 0;
@@ -336,7 +367,7 @@ Single HEADER
 }
 .serviceBox:after{
     content: "";
-    border-bottom: 0 solid #ff6c70;
+    border-bottom: 0 solid #ed3237;
     border-left: 0 solid transparent;
     position: absolute;
     bottom: 0;
@@ -354,7 +385,7 @@ Single HEADER
     height: 70px;
     line-height: 65px;
     border-radius: 20px;
-    background: #131F37;
+    background: #2e2f6b;
     font-size: 40px;
     color: #ffffff;
     margin-bottom: 10px;
@@ -376,6 +407,7 @@ Single HEADER
     color: #fff;
     margin: 0;
 }
+
 @media only screen and (max-width:990px){
     .serviceBox{ margin-bottom: 30px; }
 }
@@ -387,7 +419,7 @@ Single HEADER
 =============================================================== NEW SERVICE SECTION
 */
 .new-service-sec .col-md-3{
-    padding: 140px 20px;
+    padding: 137px 20px;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -437,6 +469,16 @@ Single HEADER
   opacity: 0.5;
   transition: 0.5s;
 }
+
+
+.service-sec-2 img{
+  height: 182px;
+  width: 182px;
+}
+.service-sec-2 a{
+  text-decoration: none;
+  color:#333;
+}
 /*
 =================================================================== END NEW SERVICE SECTION
 */
@@ -446,12 +488,26 @@ Single HEADER
   background-image: url('../myimages/3.jpg');
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 60px;
+}
+.policy-sec-n .floater-n{
+  background-image: url('../myimages/policy-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 92px;
+  position: absolute;
+  height: 332px;
+  top: -100px;
+  width: 343px;
+  text-align: center;
+
 }
 .policy-sec-n p{
-  background-color: #333;
-  opacity: 0.8;
-  color: #fff;
-  padding: 30px;
+  font-size: 16px;
+  line-height: 30px;
+
+  color:#fff;
 }
 
 
@@ -512,9 +568,30 @@ ABOUT PAGE
 }
 
 
+/*
+====================================
+FINAL SECTION
+====================================
+ */
+ .final-section .col-md-3{
+   overflow: hidden;
+ }
+ .btn-theme{
+   border-radius: 0;
+   border:3px solid #ed3237;
+   background-color: #ed3237;
+   color: #ffffff;
+   transition: 0.5s;
+   padding: 8px 28px;
+   font-size: 18px;
+   position: relative;
+   overflow: hidden;
+ }
 
-
-
+.btn-theme:hover{
+  background-color: transparent;
+  transition: 0.5s;
+}
 
 /*
 ====================================
@@ -522,7 +599,7 @@ FOOTER
 ====================================
 */
 footer{
-  /* background-color: #131F37; */
+  /* background-color: #2e2f6b; */
   padding-top: 30px;
   padding-bottom: 20px;
   color: #ffffff;
@@ -544,7 +621,7 @@ footer ul li a{
   text-decoration: none;
 }
 footer ul li:hover a{
-  color: #ff6c70;
+  color: #ed3237;
 }
 .footer-title{
   text-transform: uppercase;
@@ -615,6 +692,45 @@ footer .subscribe-form button{
     margin-top: 10px;
 }
 
-@media only screen and (max-width:500px) {
 
+
+/*
+================================================
+CONTACT PAGE
+================================================
+*/
+.contact-page h4{
+    font-size: 15px;
+    margin: 12px 25px;
+}
+.contact-page h4 .fa{
+    background-color: #ed3237;
+    padding: 7px;
+    color: white;
+    margin-right: 15px;
+}
+.contact-page .socials a{
+  margin: 20px;
+  color: white;
+  padding: 10px;
+}
+
+.contact-page .socials .bg-fb{
+  padding: 10px 12px;
+}
+
+
+.contact-page .form-control{
+  border: 0;
+  box-shadow: none;
+  background-color: #efeeee;
+  padding: 22px;
+}
+@media only screen and (max-width:500px) {
+  .policy-sec-n{
+    padding: 15px;
+  }
+  .mid-menu p{
+    margin: 19px 22px;
+  }
 }

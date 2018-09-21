@@ -14,21 +14,42 @@
 			<div class="container-fluid plr-0">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="14000" >
 			    <!-- Indicators -->
-			    <ol class="carousel-indicators">
+			    <!-- <ol class="carousel-indicators">
 			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			      <li data-target="#myCarousel" data-slide-to="1"></li>
 			      <li data-target="#myCarousel" data-slide-to="2"></li>
-			    </ol>
+			    </ol> -->
 
 			    <!-- Wrapper for slides -->
 			    <div class="carousel-inner">
 			      <div class="item active">
 			        <img src="myimages/slider/1.jpg" alt="Slide1" style="width:100%;">
-
+							<div class="carousel-caption">
+									<p>Welcome To</p>
+									<h1>Patrick Ocean Ship Management</h1>
+									<br>
+									<a href="contact.php" class="btn btn-theme">Contact Us</a>
+							</div>
 			      </div>
 
 			      <div class="item">
 			        <img src="myimages/slider/2.jpg" alt="Slide2" style="width:100%;">
+							<div class="carousel-caption">
+									<p>Providing</p>
+									<h1>Excellence in Shipping Services & Crew Management</h1>
+									<br>
+									<a href="contact.php" class="btn btn-theme">Contact Us</a>
+							</div>
+			      </div>
+
+						<div class="item">
+			        <img src="myimages/slider/3.jpg" alt="Slide2" style="width:100%;">
+							<div class="carousel-caption">
+									<p>Delivering </p>
+									<h1>Safety, Reliability & Efficiency.</h1>
+									<br>
+									<a href="contact.php" class="btn btn-theme">Contact Us</a>
+							</div>
 			      </div>
 
 
@@ -59,12 +80,13 @@
 			<div class="container sec-content">
 				<div class="row">
 					<div class="col-sm-6">
-						<br><br>
+						<br>
+						<h1>Welcome To Patrik Ocean Ship Management</h1>
 						<p>Performance and positive results are possible by synergizing creative freedom and professionalism. Patrick Ocean Ship Management Pvt. Ltd. is a full-service partner for maritime organizations. Our focus is on complete coverage of all options available with minimal response time. Our practical approach has a dedicated advocacy for owners and charterers alike. Above all, our imagination and initiative make us stand out.</p>
 						<p>As a ship management company, we are committed to maintaining the highest standards of safety and energy conservation both onboard and ashore. Prevention of injury or loss of life of seafarers and protection of marine environment.</p>
 					</div>
 					<div class="col-sm-6">
-						<img src="myimages/1.jpg" alt="" class="img-responsive">
+						<img src="myimages/ship.png" alt="" class="img-responsive" id="slideleft">
 					</div>
 				</div>
 			</div>
@@ -72,85 +94,66 @@
 		<!-- about section end -->
 
 		<!-- NEW SERVICE SECTION -->
-		<section class="new-service-sec">
+		<section class="service-sec-2">
 			<div class="container-fluid bg-blue sec-head">
 				<div class="row">
 					<div class="cl-md-12 text-center">
-						<h1>Our Services</h1>
+						<h1>Our Key Services</h1>
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid">
-				<div class="row">
-
-					<div class="col-md-3 sr1">
-						<div class="img-sec">
-							<img src="myimages/home-service/1.jpg" alt="" class="img-responsive">
-						</div>
-						<div class="content">
-							<i class="fa fa-ship"></i>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-						</div>
-						<div class="overlay"></div>
-					</div>
-
-					<div class="col-md-3 sr2">
-						<div class="img-sec">
-							<img src="myimages/home-service/2.jpg" alt="" class="img-responsive">
-						</div>
-						<div class="content">
-							<i class="fa fa-ship"></i>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-						</div>
-						<div class="overlay"></div>
-					</div>
-
-					<div class="col-md-3 sr3">
-						<div class="img-sec">
-							<img src="myimages/home-service/3.jpg" alt="" class="img-responsive">
-						</div>
-						<div class="content">
-							<i class="fa fa-ship"></i>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-						</div>
-						<div class="overlay"></div>
-					</div>
-
-					<div class="col-md-3 sr4">
-						<div class="img-sec">
-							<img src="myimages/home-service/4.jpg" alt="" class="img-responsive">
-						</div>
-						<div class="content">
-							<i class="fa fa-ship"></i>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-						</div>
-						<div class="overlay"></div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-	
-		<!-- NEW SERVICE SECTIOn -->
-		<div class="container-fluid bg-blue sec-head">
-			<div class="row">
-				<div class="cl-md-12 text-center">
-					<h1>Our Policies</h1>
-				</div>
-			</div>
-		</div>
-		<section class="policy-sec-n pt-35 pb-40">
-
+			<br>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 sec-content">
-						<p class="text-center">Patrick Ocean Ship Management believes that, in providing comprehensive marine support services to the offshore industry, the Safety and Health of its employees, including Contractors and all persons working under its control, together with the general public, as well as the protection of the Environment, are the overriding responsibilities and considerations in carrying out its diverse marine operations.</p>
+					<div class="col-md-3 text-center">
+						<img src="myimages/main-service/crew.jpg" alt="" class="img-responsive img-circle img-thumbnail">
+						<br>
+						<h3><a href="services.php">Crew <br> Management</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit consectetur magnam non, voluptatem. Sit,</p>
+					</div>
+					<div class="col-md-3 text-center">
+						<img src="myimages/main-service/technical.jpg" alt="" class="img-responsive img-circle img-thumbnail">
+						<br>
+						<h3><a href="services.php">Technical <br> Management</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit consectetur magnam non, voluptatem. Sit,</p>
+					</div>
+					<div class="col-md-3 text-center">
+						<img src="myimages/main-service/offshore.jpg" alt="" class="img-responsive img-circle img-thumbnail">
+						<br>
+						<h3><a href="services.php">Offshore <br> Management</a></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit consectetur magnam non, voluptatem. Sit,</p>
+					</div>
+					<div class="col-md-3 text-center">
+						<img src="myimages/main-service/flag.jpg" alt="" class="img-responsive img-circle img-thumbnail">
+						<br>
+						<h3> <a href="services.php">Flag State Documentation Services</a> </h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit consectetur magnam non, voluptatem. Sit,</p>
 					</div>
 				</div>
-				<br>
 			</div>
+			<br><br>
 		</section>
 
+		<!-- NEW SERVICE SECTIOn -->
+		<br><br><br><br>
+		<section class="policy-sec-n">
+
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8">
+						<p class="text-justify text-white">Patrick Ocean Ship Management believes that, in providing comprehensive marine support services to the offshore industry, the Safety and Health of its employees, including Contractors and all persons working under its control, together with the general public, as well as the protection of the Environment, are the overriding responsibilities and considerations in carrying out its diverse marine operations.</p>
+					</div>
+					<div class="col-sm-4 sec-content">
+						<div class="floater-n">
+							<h2>Our <span class="">Policies</span> </h2>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<br><br><br>
 
 		<!-- SERVICE SECTION -->
 		<!-- <section class="services-sec pb-40">
@@ -263,7 +266,7 @@
 		<!-- END TESTIMONIAL SECTION -->
 
 		<!-- APPOINTMENT SECTION -->
-		<section class="appointment-sec pb-40">
+		<!-- <section class="appointment-sec pb-40">
 			<div class="container-fluid plr-0">
 				<div class="row">
 
@@ -297,27 +300,29 @@
 					<div class="col-md-6 plr-0">
 						<br><br>
 						<img src="myimages/2.jpg" alt="" class="img-responsive hidden-xs">
-						<!-- <div class="row">
-							<div class="col-md-12"><h2><span class="text-blue"><b>Contact</b> </span> <span class="text-red"><b>Us</b> </span> </h2> <br></div>
 
-
-							<div class="col-md-8">
-								<p class="text-blue"> <b>Phone:</b> </p>
-								<p>+91 123 456 7890</p>
-							</div>
-							<div class="col-md-4">
-								<p class="text-blue"> <b>Email:</b> </p>
-								<p>info@example.com</p>
-							</div>
-
-						</div> -->
 					</div>
 
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- END APPOINTMENT SECTION -->
 
+	<!-- FINAL SECTION -->
+	<section class="final-section pt-55 pb-40">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<p class="text-dark"> <b>DO YOU STILL HAVE A QUESTION REGARDING OUR SERVICES?</b> </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat elementum tempor. Duis porta lectus ut dui</p>
+				</div>
+				<div class="col-md-3">
+					<a href="contact.php" class="btn btn-theme">Get In Touch</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End FINAL SECTION -->
 
 
 	</div>

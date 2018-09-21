@@ -5,9 +5,9 @@
         <div class="footer-col">
           <!-- <img src="myimages/logo.png" alt="" class="img-responsive"> -->
           <h5 class="footer-title">about us</h5>
-          <p class="text-justify">As a ship management company, we are committed to maintaining the highest standards of safety and energy conservation both onboard and ashore.</p>
+          <p class="text-justify">As a ship management company, we are committed to maintaining the highest standards of safety and energy conservation both onboard and ashore. Prevention of injury or loss of life of seafarers and protection of marine environment.</p>
           <br><br>
-          <p> <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i class="fa fa-instagram"></i> <i class="fa fa-google-plus"></i></p>
+          <!-- <p> <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i class="fa fa-instagram"></i> <i class="fa fa-google-plus"></i></p> -->
   </div>
       </div>
       <div class="col-sm-3">
@@ -22,30 +22,34 @@
         </div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-sm-2">
+        <div class="footer-col">
+          <h5 class="footer-title">Quick Links</h5>
+          <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="careers.php">Careers</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
         <div class="footer-col">
           <h5 class="footer-title">Contact Us</h5>
           <p> <i class="fa fa-map-marker"></i> Address</p>
           <br>
-          <p> <i class="fa fa-phone"></i> +91 123 456 7890</p>
+          <p> <i class="fa fa-phone"></i> +9122 49706625.</p>
           <br>
-          <p> <i class="fa fa-envelope"></i> email@posm.com</p>
+          <p> <i class="fa fa-envelope"></i> info@patrickoceanshipmanagement.com </p>
+          <br>
+          <p> <i class="fa fa-envelope"></i> crew@patrickoceanshipmanagement.com   </p>
+          <br>
+          <p> <i class="fa fa-envelope"></i> posmpvtltd@gmail.com  </p>
         </div>
       </div>
 
-      <div class="col-sm-3">
-        <div class="footer-col">
-          <h5 class="footer-title">Newsletter Suscribe</h5>
-          <p>Subscribe to our mailing list to get the updates to your email inbox.</p>
-          <br>
-          <form action="#" class="subscribe-form">
-							<fieldset>
-								<input type="email" class="form-control" placeholder="your email here">
-								<button type="submit"><i class="fa fa-envelope-o"></i></button>
-							</fieldset>
-					</form>
-        </div>
-      </div>
+
 
 
     </div>

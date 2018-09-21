@@ -2,12 +2,6 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-sm-8 text-center inline">
-          <!-- <p> <i class="fa fa fa-certificate"></i> Certified Company</p>
-          <p><i class="fa fa-envelope inline-fa"></i> <a href="mailto:info@example.com"></a>info@example.com </p>
-          <p> <i class="fa fa-phone inline-fa"></i>  +91 123 456 7890 / +91 758 589 6458</p> -->
-
-      </div>
 
       <div class="col-sm-4 text-center">
         <a href="#" class="btn btn-red">Get Quote</a>
@@ -19,11 +13,15 @@
 
 <div class="container mid-menu">
   <div class="row">
-    <div class="col-md-3">
-      <img src="myimages/logo.png" alt="Dr. Pooja Vijay Multani" class="img-responsive">
+    <div class="col-md-2 col-xs-4">
+      <img src="myimages/logo.png" class="img-responsive" style="margin:auto;margin-right:0">
     </div>
-    <div class="col-md-9 inline">
-      <p> <i class="fa fa fa-certificate"></i> Certified Company</p>
+    <div class="col-md-4 pl0 col-xs-8">
+      <h5 class="name">Patrick Ocean <span class="text-red">Ship Management</span> </h5>
+      <h5 class="tag">ISO 9001: 2015 Certified Approved by Government Shipping of India</h5>
+    </div>
+    <div class="col-md-6 inline">
+
       <p><i class="fa fa-envelope inline-fa"></i> <a href="mailto:info@example.com"></a>info@example.com </p>
       <p> <i class="fa fa-phone inline-fa"></i>  +91 123 456 7890 / +91 758 589 6458</p>
     </div>
@@ -48,15 +46,8 @@
         <li><a href="index.php">Home</a></li>
 
         <li><a href="about.php">About Us</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="crew.php">Crew Management</a></li>
-            <li><a href="technical.php">Technical Management</a></li>
-            <li><a href="offshore.php">Offshore Management</a></li>
-            <li><a href="flag-state.php">Flag State Documentation Services</a></li>
-          </ul>
-        </li>
+        <li>
+          <a href="services.php">Services</a></li>
         <!-- <li><a href="services.php">Services</a></li> -->
 
         <li><a href="careers.php" >Careers</a></li>

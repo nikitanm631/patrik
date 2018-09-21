@@ -1,0 +1,49 @@
+<div class="container-fluid">
+  <div class="row" style="margin:0">
+
+    <div class="col-md-3 sr1">
+      <div class="img-sec">
+        <img src="myimages/home-service/1.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="content">
+        <i class="fa fa-ship"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="col-md-3 sr2">
+      <div class="img-sec">
+        <img src="myimages/home-service/2.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="content">
+        <i class="fa fa-ship"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="col-md-3 sr3">
+      <div class="img-sec">
+        <img src="myimages/home-service/3.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="content">
+        <i class="fa fa-ship"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="col-md-3 sr4">
+      <div class="img-sec">
+        <img src="myimages/home-service/4.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="content">
+        <i class="fa fa-ship"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+  </div>
+</div>
