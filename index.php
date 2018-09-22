@@ -12,7 +12,7 @@
 	<div class="wrapper">
 		<div class="banner-section">
 			<div class="container-fluid plr-0">
-				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="14000" >
+				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" >
 			    <!-- Indicators -->
 			    <!-- <ol class="carousel-indicators">
 			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -109,25 +109,25 @@
 						<img src="myimages/main-service/crew.jpg" alt="" class="img-responsive img-circle img-thumbnail">
 						<br>
 						<h3><a href="services.php">Crew <br> Management</a></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit consectetur magnam non, voluptatem. Sit,</p>
+						<p>As a Crewing & Manning Agent, the company is engaged in recruiting well qualified, experienced, professional</p>
 					</div>
 					<div class="col-md-3 text-center">
 						<img src="myimages/main-service/technical.jpg" alt="" class="img-responsive img-circle img-thumbnail">
 						<br>
 						<h3><a href="services.php">Technical <br> Management</a></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit consectetur magnam non, voluptatem. Sit,</p>
+						<p>Underpinning our adeptness in offering a full portfolio of third party technical ship management services is our team </p>
 					</div>
 					<div class="col-md-3 text-center">
 						<img src="myimages/main-service/offshore.jpg" alt="" class="img-responsive img-circle img-thumbnail">
 						<br>
 						<h3><a href="services.php">Offshore <br> Management</a></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit consectetur magnam non, voluptatem. Sit,</p>
+						<p>We understand the importance of expert planning for the successful delivery of projects; identifying and mitigating</p>
 					</div>
 					<div class="col-md-3 text-center">
 						<img src="myimages/main-service/flag.jpg" alt="" class="img-responsive img-circle img-thumbnail">
 						<br>
 						<h3> <a href="services.php">Flag State Documentation Services</a> </h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus suscipit consectetur magnam non, voluptatem. Sit,</p>
+						<p>Flag State Authorities are prestigious authorities. It is very obvious that there is a need of Flag state Certification </p>
 					</div>
 				</div>
 			</div>
@@ -135,7 +135,7 @@
 		</section>
 
 		<!-- NEW SERVICE SECTIOn -->
-		<br><br><br><br>
+
 		<section class="policy-sec-n">
 
 			<div class="container-fluid">
@@ -145,7 +145,7 @@
 					</div>
 					<div class="col-sm-4 sec-content">
 						<div class="floater-n">
-							<h2>Our <span class="">Policies</span> </h2>
+							<h2>OUR <span class="">POLICIES</span> </h2>
 
 						</div>
 					</div>
@@ -153,7 +153,7 @@
 			</div>
 
 		</section>
-		<br><br><br>
+
 
 		<!-- SERVICE SECTION -->
 		<!-- <section class="services-sec pb-40">
@@ -309,7 +309,7 @@
 		<!-- END APPOINTMENT SECTION -->
 
 	<!-- FINAL SECTION -->
-	<section class="final-section pt-55 pb-40">
+	<section class="final-section pb-40">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9">

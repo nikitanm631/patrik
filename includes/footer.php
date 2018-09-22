@@ -1,4 +1,4 @@
-<footer class="pt-55 pb-40">
+<footer class="pt-55 ">
   <div class="container">
     <div class="row">
       <div class="col-sm-3">
@@ -8,7 +8,7 @@
           <p class="text-justify">As a ship management company, we are committed to maintaining the highest standards of safety and energy conservation both onboard and ashore. Prevention of injury or loss of life of seafarers and protection of marine environment.</p>
           <br><br>
           <!-- <p> <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i class="fa fa-instagram"></i> <i class="fa fa-google-plus"></i></p> -->
-  </div>
+        </div>
       </div>
       <div class="col-sm-3">
         <div class="footer-col">
@@ -37,21 +37,28 @@
       <div class="col-sm-4">
         <div class="footer-col">
           <h5 class="footer-title">Contact Us</h5>
-          <p> <i class="fa fa-map-marker"></i> Address</p>
+          <p> <i class="fa fa-map-marker"></i> Office No. 337, 3rd Floor, Bawa Tower, Plot No. 78/79, &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sector – 17, Vashi, Navi Mumbai Maharashtra – 400 705</p>
           <br>
-          <p> <i class="fa fa-phone"></i> +9122 49706625.</p>
+          <p> <i class="fa fa-phone"></i> +9122 49706625</p>
           <br>
           <p> <i class="fa fa-envelope"></i> info@patrickoceanshipmanagement.com </p>
-          <br>
+          <!-- <br>
           <p> <i class="fa fa-envelope"></i> crew@patrickoceanshipmanagement.com   </p>
           <br>
-          <p> <i class="fa fa-envelope"></i> posmpvtltd@gmail.com  </p>
+          <p> <i class="fa fa-envelope"></i> posmpvtltd@gmail.com  </p> -->
         </div>
       </div>
 
 
 
 
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <br><br>
+        <p class="text-center">Copyright © Patrick Ocean Ship Management Pvt. Ltd. All rights reserved.</p>
+      </div>
     </div>
   </div>
 </footer>

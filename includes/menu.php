@@ -4,7 +4,7 @@
 
 
       <div class="col-sm-4 text-center">
-        <a href="#" class="btn btn-red">Get Quote</a>
+        <a href="contact.php" class="btn btn-red">Get In Touch</a>
       </div>
 
     </div>
@@ -13,17 +13,17 @@
 
 <div class="container mid-menu">
   <div class="row">
-    <div class="col-md-2 col-xs-4">
+    <div class="col-md-2 col-xs-4 plr-0">
       <img src="myimages/logo.png" class="img-responsive" style="margin:auto;margin-right:0">
     </div>
     <div class="col-md-4 pl0 col-xs-8">
       <h5 class="name">Patrick Ocean <span class="text-red">Ship Management</span> </h5>
-      <h5 class="tag">ISO 9001: 2015 Certified Approved by Government Shipping of India</h5>
+      <h5 class="tag">ISO 9001: 2015 Certified <br> Approved by Government Shipping of India</h5>
     </div>
     <div class="col-md-6 inline">
 
-      <p><i class="fa fa-envelope inline-fa"></i> <a href="mailto:info@example.com"></a>info@example.com </p>
-      <p> <i class="fa fa-phone inline-fa"></i>  +91 123 456 7890 / +91 758 589 6458</p>
+      <p><i class="fa fa-envelope inline-fa"></i> <a href="mailto:info@example.com"></a> info@patrickoceanshipmanagement.com</p>
+      <p> <i class="fa fa-phone inline-fa"></i>  +9122 49706625</p>
     </div>
   </div>
 </div>

@@ -327,12 +327,23 @@ Single HEADER
 }
 .carousel-caption p{
   color: white;
-  font-size: 20px;
+  font-size: 32px;
+  animation: slide-left 1.5s;
 
 }
 .carousel-caption h1{
+  font-size: 40px;
   margin-top: 0;
   text-transform: uppercase;
+  animation: slide-left 1.5s;
+}
+@keyframes slide-left {
+  from{
+    margin-top: 100%;
+  }
+  to{
+    margin-top: 0%;
+  }
 }
 /* about section  */
 .about-sec h2{
@@ -573,6 +584,10 @@ ABOUT PAGE
 FINAL SECTION
 ====================================
  */
+ .final-section{
+    background-color: #f5f5f5;
+    padding-top: 90px;
+ }
  .final-section .col-md-3{
    overflow: hidden;
  }
