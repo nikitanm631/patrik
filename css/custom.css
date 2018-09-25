@@ -16,7 +16,7 @@ body{
   font-family: Open Sans, sans-serif;
   overflow-x: hidden;
 }
-body p{
+body p, li{
   color: #777777;
 }
 .plr-0{
@@ -150,8 +150,7 @@ body p{
 }
 /* --------------------------single page banner css */
 .banner-head{
-  background-image: url('../myimages/banner.jpg');
-  background-size: cover;
+  background-color: #a5a5a5;
 }
 .banner-head .breadcrumb{
   background-color: transparent;
@@ -234,6 +233,7 @@ Single HEADER
 .navbar-default {
   background-color: #2e2f6b;
   border-color: transparent;
+  border-radius: 0;
 }
 .navbar-default .navbar-nav{
   margin: 0;
@@ -327,12 +327,23 @@ Single HEADER
 }
 .carousel-caption p{
   color: white;
-  font-size: 20px;
+  font-size: 32px;
+  animation: slide-left 1.5s;
 
 }
 .carousel-caption h1{
+  font-size: 40px;
   margin-top: 0;
   text-transform: uppercase;
+  animation: slide-left 1.5s;
+}
+@keyframes slide-left {
+  from{
+    margin-top: 100%;
+  }
+  to{
+    margin-top: 0%;
+  }
 }
 /* about section  */
 .about-sec h2{
@@ -573,6 +584,10 @@ ABOUT PAGE
 FINAL SECTION
 ====================================
  */
+ .final-section{
+    background-color: #f5f5f5;
+    padding-top: 90px;
+ }
  .final-section .col-md-3{
    overflow: hidden;
  }

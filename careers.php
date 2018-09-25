@@ -27,12 +27,7 @@
 
 	<section class="career-page pb-40">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h2><b>Careers</b> </h2>
-					<br>
-				</div>
-			</div>
+			<br>
 			<div class="row bg-lightgrey pad">
 				<div class="col-sm-12">
 					<p>POSM is a compassionate employer which not only offers a job but also a career and commitment. With our ever growing presence in marine and offshore industry, we have a bright future for you.</p>
@@ -117,7 +112,7 @@
 					</div>
 					<div class="col-sm-9">
 						<h4><b>Head Office</b> </h4>
-						<p>Navi Mumbai, Mumbai, Maharashtra</p>
+						<p>Office No. 337, 3rd Floor, Bawa Tower, Plot No. 78/79, Sector – 17, Vashi, Navi Mumbai Maharashtra – 400 705</p>
 					</div>
 				</div>
 
@@ -127,7 +122,7 @@
 					</div>
 					<div class="col-sm-9">
 						<h4><b>Contact</b> </h4>
-						<p>+91 123 456 7890</p>
+						<p>022 49706625</p>
 					</div>
 				</div>
 
@@ -137,7 +132,7 @@
 					</div>
 					<div class="col-sm-9">
 						<h4><b>Email</b> </h4>
-						<p>example@gmail.com</p>
+						<p>info@patrickoceanshipmanagement.com</p>
 					</div>
 				</div>
 			</div>
