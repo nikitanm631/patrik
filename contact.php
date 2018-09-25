@@ -35,11 +35,19 @@
 
 							<h4> <i class="fa fa-map-marker"></i> Office No. 337, 3rd Floor, Bawa Tower,
 
+<<<<<<< HEAD
 								Plot No. 78/79, Sector – 17,<br>  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Vashi, Navi Mumbai
 
 								Maharashtra – 400 705 </h4>
 
 							<h4> <i class="fa fa-phone"></i> 022 49706625</h4>
+=======
+								Plot No. 78/79, Sector – 17,<br>  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Vashi, Navi Mumbai
+
+								Maharashtra – 400 705. INDIA. </h4>
+
+							<h4> <i class="fa fa-phone"></i> +9122 49706625</h4>
+>>>>>>> f743844aef85abd51ae02fe9da21a72dd217ec06
 
 
 							<h4> <i class="fa fa-envelope"></i> info@patrickoceanshipmanagement.com </h4>

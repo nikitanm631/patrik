@@ -23,7 +23,11 @@
     <div class="col-md-6 inline">
 
       <p><i class="fa fa-envelope inline-fa"></i> <a href="mailto:info@example.com"></a> info@patrickoceanshipmanagement.com</p>
+<<<<<<< HEAD
       <p> <i class="fa fa-phone inline-fa"></i>  022 49706625</p>
+=======
+      <p> <i class="fa fa-phone inline-fa"></i>  +9122 49706625</p>
+>>>>>>> f743844aef85abd51ae02fe9da21a72dd217ec06
     </div>
   </div>
 </div>

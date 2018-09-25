@@ -112,7 +112,10 @@
 					</div>
 					<div class="col-sm-9">
 						<h4><b>Head Office</b> </h4>
+
 						<p>Office No. 337, 3rd Floor, Bawa Tower, Plot No. 78/79, Sector – 17, Vashi, Navi Mumbai Maharashtra – 400 705</p>
+
+
 					</div>
 				</div>
 
@@ -122,7 +125,10 @@
 					</div>
 					<div class="col-sm-9">
 						<h4><b>Contact</b> </h4>
+
 						<p>022 49706625</p>
+
+
 					</div>
 				</div>
 
